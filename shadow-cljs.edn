@@ -3,7 +3,9 @@
  ["src"]
 
  :dependencies
- []
+ [[reagent "0.8.1"]
+  [cider/cider-nrepl "0.21.1"]
+  [re-frame "0.10.6"]]
 
  :builds
  {:app {:target :browser
@@ -17,5 +19,4 @@
         ;; start a development http server on http://localhost:8020
         :devtools
         {:http-root "public"
-         :http-port 8020}
-        }}}
+         :http-port 8020}}}}
